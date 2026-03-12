@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrieval-quality-toolkit"
+version = "0.1.0"
+description = "Toolkit to evaluate and improve RAG pipelines with chunk scoring, relevance metrics, and gap detection."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/retrieval-quality-toolkit"
+Issues = "https://github.com/erron-ai/retrieval-quality-toolkit/issues"
+
+[project.scripts]
+retrieval-quality-toolkit = "retrieval_quality_toolkit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
