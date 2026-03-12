@@ -2,7 +2,7 @@
 
 Toolkit to evaluate and improve RAG pipelines with chunk scoring, relevance metrics, and gap detection.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
